@@ -1,6 +1,6 @@
 # FAMOS IMC3 Viewer and Converter
 
-Tools for opening FAMOS/imc `.raw` and `.dat` files in imc3 format, converting them to CSV or HDF5, and inspecting HDF5 files.
+Tools for opening FAMOS/imc `.raw` and `.dat` files in imc3 format and converting them to CSV or HDF5.
 
 ## Features
 
@@ -77,9 +77,9 @@ python Viewer.py input/channel_025.raw
 python Viewer.py input/channel_025.dat
 ```
 
-Use `xoff = 0` to normalize FAMOS time axes to start at zero before saving. The viewer remembers this option, Auto-Plot, and the last folder between sessions.
+Use `xoff = 0` to normalize FAMOS time axes to start at zero before saving.
 
-When one FAMOS file is open, use **Save as...** to export it as CSV or HDF5. When multiple FAMOS files are open, **Save as...** lets you save them as one combined output file or as separate files in a folder. The status bar shows progress and the final save location.
+When one FAMOS file is open, use **Save as...** to export it as CSV or HDF5. When multiple FAMOS files are open, **Save as...** lets you save them as one combined output file or as separate files in a folder.
 
 ## Data Notes
 
